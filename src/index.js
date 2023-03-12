@@ -68,9 +68,9 @@ function renderCountryCard(arrCountry) {
             <img src="${el.flags.svg}" alt="Flag" width="60", height="30">
             <h2 class="country-card--title"> ${el.name}</h2>
         </div>
-            <p class="country-card--text">Capital: ${el.capital}</p>
-            <p class="country-card--text">Population: ${el.population}</p>
-            <p class="country-card--text">Languages: ${langs}</p>
+            <p class="country-card--text"><b>Capital:</b> ${el.capital}</p>
+            <p class="country-card--text"><b>Population:</b> ${el.population}</p>
+            <p class="country-card--text"><b>Languages:</b> ${langs}</p>
         </div>`;
     countryDiv.insertAdjacentHTML('afterbegin', markupCard);
 }
