@@ -78,4 +78,3 @@ function clear() {
     countryList.innerHTML = '';
     countryDiv.innerHTML = '';
 }
-searchCountry.addEventListener('blur', () => (searchCountry.value = ''));
